@@ -1,0 +1,241 @@
+    1  ls
+    2  ls Desktop
+    3  ls shell-lesson
+    4  ls shell-lesson/
+    5  ls 'Battletech backup'
+    6  cd shell-lesson
+    7  cd
+    8  ls ?
+    9  ls help
+   10  ?ls
+   11  help ls
+   12  into ls
+   13  info ls
+   14  man -k ls
+   15  ls
+   16  cd Desktop
+   17  ls
+   18  cd shell-lesson
+   19  ls
+   20  cd
+   21  ls
+   22  cd Desktop
+   23  ls
+   24  cd Desktop/shell-lesson
+   25  cd shell-lesson
+   26  clear
+   27  cd
+   28  ls
+   29  clear
+   30  ls
+   31  cd Desktop
+   32  ls
+   33  cd shell-lesson
+   34  pwd
+   35  mkdir firstdir
+   36  ls
+   37  cd firstdir
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd Desktop/lcw2022/shell-lesson
+   42  ls
+   43  git config --global user.email "srcorning@gmail.com"
+   44  git config --list
+   45  git config --global user.name "Sean Corning"
+   46  git config --list
+   47  cd ../..
+   48  mkdir hello-world
+   49  ls
+   50  cd hello-world/
+   51  git init
+   52  ls -a
+   53  git status
+   54  git config --global init.defaultbranch "main"
+   55  ls
+   56  touch index.md
+   57  git status
+   58  git config --global init.defaultbranch 'main'
+   59  git config
+   60  git config --list
+   61  ls
+   62  cd Desktop
+   63  cd lcw2022
+   64  ls
+   65  ls
+   66  ..
+   67  ...
+   68  .
+   69  ls -l
+   70  ls -lh
+   71  cd ..
+   72  ls -lh
+   73  ls -l
+   74  pwd
+   75  ls
+   76  cd lcw2022
+   77  cd fireal
+   78  cd lcw2022
+   79  cd lcw2022
+   80  ls
+   81  cd ..
+   82  cd lcw2022
+   83  cd Desktop
+   84  explorer .
+   85  cd
+   86  cd /desktop/lcw2022
+   87  cd desktop
+   88  cd lcw2022
+   89  ? ls
+   90  ?
+   91  help ls
+   92  man ls
+   93  man -k ls
+   94  ls --help
+   95  cd ..
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd Searches
+  100  cd C:\Users\seanw\Desktop\lcw2022
+  101  cd \C\Users\seanw\Desktop\lcw2022
+  102  cd \c\Users\seanw\Desktop\lcw2022
+  103  cd \c\Users\seanw\Desktop\lcw2022
+  104  cd C/Users/seanw/Desktop/lcw2022
+  105  cd c/Users/seanw/Desktop/lcw2022
+  106  cd 
+  107  ls
+  108  cd Desktop
+  109  cd lcw2022
+  110  cd shell-lesson
+  111  mkdir firstdir
+  112  ;s
+  113  ls
+  114  ls -aF
+  115  cd firstdir
+  116  cd ..
+  117  ls -lh
+  118  cat 829-0.txt 
+  119  head 829-0.txt 
+  120  less 829-0.txt 
+  121  q
+  122  q
+  123  clear
+  124  head 829-0.txt 33504-0.txt 
+  125  head *.txt
+  126  mv 829-0.txt gulliver.txt
+  127  ls
+  128  cp gulliver.txt gulliver-backup.txt
+  129  ls
+  130  history
+  131  ls
+  132  mv gulliver-backup.txt firstdir/
+  133  cd firstdir/
+  134  ls
+  135  cd ..
+  136  ls
+  137  mv firstdir/ backup
+  138  ls
+  139  ls history > history.txt
+  140  history > history.txt
+  141  ls
+  142  del hist
+  143  d --help
+  144  de --help
+  145  touch a.txt b.txt c.txt
+  146  ls
+  147  for filename in ?.txt; do n; q; done
+  148  for filename in ?.txt; do  echo "$filename";  cp "$filename" backup_$filename; done
+  149  ls
+  150  for file in *.txt; do   echo "$file";   head -n 1 $file;   tail -n 1 $file; done
+  151  tail pg514.txt 
+  152  for file in "*.txt"
+  153  ls
+  154  bash my_first_bash_script.sh 
+  155  head 2014-01-31_JA-africa.tsv 
+  156  wc *.tsv
+  157  wc -1 *.tsv
+  158  wc --help
+  159  wc -l *.tsv
+  160  wc -l *.tsv > lengths.txt
+  161  cat lengths.txt 
+  162  sort -n lengths.txt > sorted-lengths.txt
+  163  cat sorted-lengths.txt 
+  164  wc -l *.tsv | sort -n | head -n 1
+  165  wc -l *.tsv | sort -n > sorted-lengths2.txt
+  166  cat sorted-lengths2.txt
+  167  cat sorted-lengths.txt
+  168  ls | wc -l
+  169  ls
+  170  date
+  171  date > logfile.txt
+  172  cat logfile.txt 
+  173  date >> logfile.txt 
+  174  cat logfile.txt 
+  175  wc --help
+  176  wc -c *.tsv
+  177  echo $(date)
+  178  echo $(date) > logfile.txt
+  179  cat logfile.txt 
+  180  ls -all
+  181  ls
+  182  ls
+  183  ls | wc -l
+  184  ls -a | wc -l
+  185  ls -a | wc -l
+  186  date > logfile.txt
+  187  wc -w *.tsv | sort -n
+  188  wc --help
+  189  wc -w *.tsv | sort -n
+  190  grep 1999 *.tsv
+  191  grep -ci revolution *.tsv
+  192  grep -iwP 'fr[ae]nc[eh]' *.tsv
+  193  grep -iwP 'fr[ae]nc[eh] revolution' *.tsv
+  194  grep -iwPc 'fr[ae]nc[eh] revolution' *.tsv
+  195  grep -iwc 'fr[ae]nc[eh] revolution' *.tsv
+  196  grep -iw 'fr[ae]nc[eh] revolution' *.tsv
+  197  grep -i revolution *.tsv
+  198  grep -i revolution 2014-01-31_JA-africa.tsv 2014-01-31_JA-america.tsv 
+  199  grep -ic revolution 2014-01-31_JA-africa.tsv 2014-01-31_JA-america.tsv 
+  200  grep -iP \d{4}-\d{4}\b *.tsv
+  201  grep \d{4}-\d{4}\b *.tsv
+  202  grep [0-9]{4}-[0-9]{4}\b *.tsv
+  203  grep [0-9]{4}-[0-9]{4} *.tsv
+  204  grep -P [0-9]{4}-[0-9]{4} *.tsv
+  205  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv
+  206  grep -Pc [0-9]{4}-[0-9]{4} 2014-01_JA.tsv
+  207  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort -n | uniq
+  208  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort -n | uniq | wc l
+  209  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort -n | uniq | wc -l
+  210  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | wc -l
+  211  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort | uniq | wc -l
+  212  sort --help
+  213  grep -Po [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort | uniq | wc -l
+  214  grep -P [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort | uniq | wc -l
+  215  grep --help
+  216  grep -Po [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort | uniq | wc -l'
+  217  grep -Po [0-9]{4}-[0-9]{4} 2014-01_JA.tsv | sort | uniq | wc -l
+  218  grep -Po '[0-9]{4}-[0-9]{4}' 2014-01_JA.tsv | sort | uniq | wc -l
+  219  grep -Po '\d{4}-\d{4}' 2014-01_JA.tsv | sort | uniq | wc -l
+  220  ls
+  221  for name in "Jo" "Meg" "Beth"
+  222  for name in "Jo" "Meg" "Beth" "Amy"; do echo "$name"; grep -wo "$name" littlewomen.txt | wc -l; done
+  223  for name in "Jo" "Meg" "Beth" "Amy"; do echo "$name"; grep -wo "$name" pg514.txt | wc -l; done
+  224  cut -f 2,4,5,8 2014-01_JA.tsv | head
+  225  cut --help
+  226  cd lcw2022
+  227  ls
+  228  cd Desktop
+  229  cd lcw2022
+  230  git init
+  231  la -a
+  232  git status
+  233  ls -a
+  234  git add .
+  235  git status
+  236  git status
+  237  git commit
+  238  git commit -m 'add day 1 files'
+  239  git status
+  240  history
+  241  history > history_d1.txt

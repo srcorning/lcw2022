@@ -1,0 +1,120 @@
+    1  ls
+    2  ls Desktop
+    3  ls shell-lesson
+    4  ls shell-lesson/
+    5  ls 'Battletech backup'
+    6  cd shell-lesson
+    7  cd
+    8  ls ?
+    9  ls help
+   10  ?ls
+   11  help ls
+   12  into ls
+   13  info ls
+   14  man -k ls
+   15  ls
+   16  cd Desktop
+   17  ls
+   18  cd shell-lesson
+   19  ls
+   20  cd
+   21  ls
+   22  cd Desktop
+   23  ls
+   24  cd Desktop/shell-lesson
+   25  cd shell-lesson
+   26  clear
+   27  cd
+   28  ls
+   29  clear
+   30  ls
+   31  cd Desktop
+   32  ls
+   33  cd shell-lesson
+   34  pwd
+   35  mkdir firstdir
+   36  ls
+   37  cd firstdir
+   38  ls
+   39  cd ..
+   40  ls
+   41  ls
+   42  cd Desktop
+   43  cd lcw2022
+   44  ls
+   45  ls
+   46  ..
+   47  ...
+   48  .
+   49  ls -l
+   50  ls -lh
+   51  cd ..
+   52  ls -lh
+   53  ls -l
+   54  pwd
+   55  ls
+   56  cd lcw2022
+   57  cd fireal
+   58  cd lcw2022
+   59  cd lcw2022
+   60  ls
+   61  cd ..
+   62  cd lcw2022
+   63  cd Desktop
+   64  explorer .
+   65  cd
+   66  cd /desktop/lcw2022
+   67  cd desktop
+   68  cd lcw2022
+   69  ? ls
+   70  ?
+   71  help ls
+   72  man ls
+   73  man -k ls
+   74  ls --help
+   75  cd ..
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd Searches
+   80  cd C:\Users\seanw\Desktop\lcw2022
+   81  cd \C\Users\seanw\Desktop\lcw2022
+   82  cd \c\Users\seanw\Desktop\lcw2022
+   83  cd \c\Users\seanw\Desktop\lcw2022
+   84  cd C/Users/seanw/Desktop/lcw2022
+   85  cd c/Users/seanw/Desktop/lcw2022
+   86  cd 
+   87  ls
+   88  cd Desktop
+   89  cd lcw2022
+   90  cd shell-lesson
+   91  mkdir firstdir
+   92  ;s
+   93  ls
+   94  ls -aF
+   95  cd firstdir
+   96  cd ..
+   97  ls -lh
+   98  cat 829-0.txt 
+   99  head 829-0.txt 
+  100  less 829-0.txt 
+  101  q
+  102  q
+  103  clear
+  104  head 829-0.txt 33504-0.txt 
+  105  head *.txt
+  106  mv 829-0.txt gulliver.txt
+  107  ls
+  108  cp gulliver.txt gulliver-backup.txt
+  109  ls
+  110  history
+  111  ls
+  112  mv gulliver-backup.txt firstdir/
+  113  cd firstdir/
+  114  ls
+  115  cd ..
+  116  ls
+  117  mv firstdir/ backup
+  118  ls
+  119  ls history > history.txt
+  120  history > history.txt
